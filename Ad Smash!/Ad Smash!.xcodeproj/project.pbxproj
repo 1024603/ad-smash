@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ACFE4E308D8F5E00176721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ACFE4D308D8F5E00176721 /* Assets.xcassets */; };
+		04ACFE51308D8F5E00176721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ACFE50308D8F5E00176721 /* Preview Assets.xcassets */; };
+		04ACFE5C308D8F5E00176721 /* App_Smash_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE5B308D8F5E00176721 /* App_Smash_Tests.swift */; };
+		04ACFE67308D8F5E00176721 /* App_Smash_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE66308D8F5E00176721 /* App_Smash_UITests.swift */; };
+		04ACFE75308D8F8F00176721 /* AdSmashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE74308D8F8F00176721 /* AdSmashApp.swift */; };
+		04ACFE77308D8F9600176721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE76308D8F9600176721 /* ContentView.swift */; };
+		04ACFE79308D8FA100176721 /* AdSmashSafari in Resources */ = {isa = PBXBuildFile; fileRef = 04ACFE78308D8FA100176721 /* AdSmashSafari */; };
+		04ACFE7B308D8FCB00176721 /* EnableAdSmashSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE7A308D8FCB00176721 /* EnableAdSmashSheet.swift */; };
+		04ACFE7D308D928E00176721 /* GuidedSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACFE7C308D928E00176721 /* GuidedSetupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ACFE58308D8F5E00176721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ACFE3E308D8F5A00176721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ACFE45308D8F5A00176721;
+			remoteInfo = "App Smash!";
+		};
+		04ACFE63308D8F5E00176721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ACFE3E308D8F5A00176721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ACFE45308D8F5A00176721;
+			remoteInfo = "App Smash!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ACFE46308D8F5A00176721 /* Ad Smash!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Smash!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACFE4D308D8F5E00176721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ACFE50308D8F5E00176721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04ACFE52308D8F5E00176721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACFE57308D8F5E00176721 /* Ad Smash!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad Smash!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACFE5B308D8F5E00176721 /* App_Smash_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Smash_Tests.swift; sourceTree = "<group>"; };
+		04ACFE5D308D8F5E00176721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACFE62308D8F5E00176721 /* Ad Smash!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad Smash!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACFE66308D8F5E00176721 /* App_Smash_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Smash_UITests.swift; sourceTree = "<group>"; };
+		04ACFE68308D8F5E00176721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACFE74308D8F8F00176721 /* AdSmashApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdSmashApp.swift; sourceTree = "<group>"; };
+		04ACFE76308D8F9600176721 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04ACFE78308D8FA100176721 /* AdSmashSafari */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdSmashSafari; sourceTree = "<group>"; };
+		04ACFE7A308D8FCB00176721 /* EnableAdSmashSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnableAdSmashSheet.swift; sourceTree = "<group>"; };
+		04ACFE7C308D928E00176721 /* GuidedSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ACFE43308D8F5A00176721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE54308D8F5E00176721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE5F308D8F5E00176721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ACFE3D308D8F5A00176721 = {
+			isa = PBXGroup;
+			children = (
+				04ACFE7A308D8FCB00176721 /* EnableAdSmashSheet.swift */,
+				04ACFE48308D8F5A00176721 /* Ad Smash! */,
+				04ACFE5A308D8F5E00176721 /* App Smash!Tests */,
+				04ACFE65308D8F5E00176721 /* App Smash!UITests */,
+				04ACFE47308D8F5A00176721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ACFE47308D8F5A00176721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ACFE46308D8F5A00176721 /* Ad Smash!.app */,
+				04ACFE57308D8F5E00176721 /* Ad Smash!Tests.xctest */,
+				04ACFE62308D8F5E00176721 /* Ad Smash!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ACFE48308D8F5A00176721 /* Ad Smash! */ = {
+			isa = PBXGroup;
+			children = (
+				04ACFE78308D8FA100176721 /* AdSmashSafari */,
+				04ACFE76308D8F9600176721 /* ContentView.swift */,
+				04ACFE74308D8F8F00176721 /* AdSmashApp.swift */,
+				04ACFE7C308D928E00176721 /* GuidedSetupView.swift */,
+				04ACFE4D308D8F5E00176721 /* Assets.xcassets */,
+				04ACFE52308D8F5E00176721 /* Info.plist */,
+				04ACFE4F308D8F5E00176721 /* Preview Content */,
+			);
+			path = "Ad Smash!";
+			sourceTree = "<group>";
+		};
+		04ACFE4F308D8F5E00176721 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04ACFE50308D8F5E00176721 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04ACFE5A308D8F5E00176721 /* App Smash!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04ACFE5B308D8F5E00176721 /* App_Smash_Tests.swift */,
+				04ACFE5D308D8F5E00176721 /* Info.plist */,
+			);
+			path = "App Smash!Tests";
+			sourceTree = "<group>";
+		};
+		04ACFE65308D8F5E00176721 /* App Smash!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ACFE66308D8F5E00176721 /* App_Smash_UITests.swift */,
+				04ACFE68308D8F5E00176721 /* Info.plist */,
+			);
+			path = "App Smash!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ACFE45308D8F5A00176721 /* Ad Smash! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACFE6B308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!" */;
+			buildPhases = (
+				04ACFE42308D8F5A00176721 /* Sources */,
+				04ACFE43308D8F5A00176721 /* Frameworks */,
+				04ACFE44308D8F5A00176721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ad Smash!";
+			productName = "App Smash!";
+			productReference = 04ACFE46308D8F5A00176721 /* Ad Smash!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ACFE56308D8F5E00176721 /* Ad Smash!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACFE6E308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!Tests" */;
+			buildPhases = (
+				04ACFE53308D8F5E00176721 /* Sources */,
+				04ACFE54308D8F5E00176721 /* Frameworks */,
+				04ACFE55308D8F5E00176721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ACFE59308D8F5E00176721 /* PBXTargetDependency */,
+			);
+			name = "Ad Smash!Tests";
+			productName = "App Smash!Tests";
+			productReference = 04ACFE57308D8F5E00176721 /* Ad Smash!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ACFE61308D8F5E00176721 /* Ad Smash!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACFE71308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!UITests" */;
+			buildPhases = (
+				04ACFE5E308D8F5E00176721 /* Sources */,
+				04ACFE5F308D8F5E00176721 /* Frameworks */,
+				04ACFE60308D8F5E00176721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ACFE64308D8F5E00176721 /* PBXTargetDependency */,
+			);
+			name = "Ad Smash!UITests";
+			productName = "App Smash!UITests";
+			productReference = 04ACFE62308D8F5E00176721 /* Ad Smash!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ACFE3E308D8F5A00176721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					04ACFE45308D8F5A00176721 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					04ACFE56308D8F5E00176721 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 04ACFE45308D8F5A00176721;
+					};
+					04ACFE61308D8F5E00176721 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 04ACFE45308D8F5A00176721;
+					};
+				};
+			};
+			buildConfigurationList = 04ACFE41308D8F5A00176721 /* Build configuration list for PBXProject "Ad Smash!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ACFE3D308D8F5A00176721;
+			productRefGroup = 04ACFE47308D8F5A00176721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ACFE45308D8F5A00176721 /* Ad Smash! */,
+				04ACFE56308D8F5E00176721 /* Ad Smash!Tests */,
+				04ACFE61308D8F5E00176721 /* Ad Smash!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ACFE44308D8F5A00176721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACFE79308D8FA100176721 /* AdSmashSafari in Resources */,
+				04ACFE51308D8F5E00176721 /* Preview Assets.xcassets in Resources */,
+				04ACFE4E308D8F5E00176721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE55308D8F5E00176721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE60308D8F5E00176721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ACFE42308D8F5A00176721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACFE77308D8F9600176721 /* ContentView.swift in Sources */,
+				04ACFE75308D8F8F00176721 /* AdSmashApp.swift in Sources */,
+				04ACFE7D308D928E00176721 /* GuidedSetupView.swift in Sources */,
+				04ACFE7B308D8FCB00176721 /* EnableAdSmashSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE53308D8F5E00176721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACFE5C308D8F5E00176721 /* App_Smash_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACFE5E308D8F5E00176721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACFE67308D8F5E00176721 /* App_Smash_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ACFE59308D8F5E00176721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ACFE45308D8F5A00176721 /* Ad Smash! */;
+			targetProxy = 04ACFE58308D8F5E00176721 /* PBXContainerItemProxy */;
+		};
+		04ACFE64308D8F5E00176721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ACFE45308D8F5A00176721 /* Ad Smash! */;
+			targetProxy = 04ACFE63308D8F5E00176721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04ACFE69308D8F5E00176721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04ACFE6A308D8F5E00176721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ACFE6C308D8F5E00176721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ad Smash!/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ad Smash!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ACFE6D308D8F5E00176721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ad Smash!/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ad Smash!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04ACFE6F308D8F5E00176721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				INFOPLIST_FILE = "App Smash!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Smash!.app/Ad Smash!";
+			};
+			name = Debug;
+		};
+		04ACFE70308D8F5E00176721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				INFOPLIST_FILE = "App Smash!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Smash!.app/Ad Smash!";
+			};
+			name = Release;
+		};
+		04ACFE72308D8F5E00176721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				INFOPLIST_FILE = "App Smash!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Smash!";
+			};
+			name = Debug;
+		};
+		04ACFE73308D8F5E00176721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XHCNDTL3H;
+				INFOPLIST_FILE = "App Smash!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coolapps.App-Smash-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Smash!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ACFE41308D8F5A00176721 /* Build configuration list for PBXProject "Ad Smash!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACFE69308D8F5E00176721 /* Debug */,
+				04ACFE6A308D8F5E00176721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ACFE6B308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACFE6C308D8F5E00176721 /* Debug */,
+				04ACFE6D308D8F5E00176721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ACFE6E308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACFE6F308D8F5E00176721 /* Debug */,
+				04ACFE70308D8F5E00176721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ACFE71308D8F5E00176721 /* Build configuration list for PBXNativeTarget "Ad Smash!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACFE72308D8F5E00176721 /* Debug */,
+				04ACFE73308D8F5E00176721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ACFE3E308D8F5A00176721 /* Project object */;
+}

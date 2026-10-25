@@ -1,0 +1,65 @@
+[
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*doubleclick.net.*",
+      "resource-type": ["image", "script", "style-sheet", "font", "media", "document"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*googlesyndication.com.*",
+      "resource-type": ["image", "script", "style-sheet", "font", "media"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*googleads.g.doubleclick.net.*",
+      "resource-type": ["image", "script", "style-sheet", "font", "media"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*adservice.google.com.*",
+      "resource-type": ["image", "script", "document", "style-sheet", "font"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*googletagmanager.com.*",
+      "resource-type": ["script"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*googletagservices.com.*",
+      "resource-type": ["script"]
+    }
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "trigger": {
+      "url-filter": ".*ads.youtube.com.*",
+      "resource-type": ["image", "script", "style-sheet", "media"]
+    }
+  }
+]
